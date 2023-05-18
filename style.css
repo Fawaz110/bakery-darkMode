@@ -1,0 +1,266 @@
+:root {
+    --bg-color: rgb(15, 15, 15);
+    --text-color: rgb(183, 183, 183);
+    --a-color: rgb(27, 109, 168);
+    --a-visited-color: rgb(165, 99, 13);
+    --a-hover-color: #acc;
+    --input-border-color: rgba(211, 211, 211, 0.2);
+    --input-placeholder-color: rgb(103, 103, 103);
+    --dialog-bg-color: rgba(36, 36, 36, 0.95);
+    --bg-image: linear-gradient(rgb(15, 15, 15), rgb(15, 15, 15));
+    --header-color: #00b786;
+}
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+    line-height: 1.86rem;
+}
+h1, h2, h4 {
+    color: var(--header-color);
+}
+p {
+    color: var(--text-color);
+}
+.home {
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    height: 100vh;
+}
+.head {
+    width: 100%;
+    height: 80.4px;
+}
+.head img {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 15px;
+    width: 150px;
+    height: 40.79px;
+    margin-right: 40%;
+}
+.head a {
+    display: inline-block;
+    width: 65px;
+    height: 18.4px;
+    font-size: 16px;
+    color: var(--a-color);
+    text-decoration: none;
+    padding: 30px 15px;
+}
+.content {
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 24px;
+    color: var(--text-color);
+}
+h1 {
+    font-size: 70px;
+}
+.welcome, p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.welcome {
+    margin-bottom: 40px;
+}
+button {
+    border: none;
+    margin-right: 10px;
+    padding: 15px 20px;
+    background-color: #f5deb300;
+    color: var(--text-color);
+    font-size: 16px;
+}
+.btn2 {
+    border: 2px solid rgb(183 183 183 / 28%);
+    border-radius: 5px;
+}
+ul {
+    position: fixed;
+    top: 25%;
+    padding: 4px 0 2px;
+    font-size: large;
+    display: inline-block;
+    list-style: none;
+    width: 8px;
+    height: 5px;
+    margin-left: 125px;
+}
+
+.home i {
+    color: var(--text-color);
+    margin: 5px 0;
+}
+
+.sec1 {
+    text-align: center;
+    height: 100vh;
+}
+
+.sec1 .img {
+    padding: 15px 20px 0;
+    width: 40%;
+    float: left;
+}
+.sec1 .img img{
+    width: 95%;
+    height: 100%;
+}
+
+.sec1 .text {
+    width: 50%;
+    margin-top: 50px;
+    padding: 15px 40px;
+    text-align: center;
+    float: right;
+    margin-top: -20px;
+}
+
+.sec1 .text h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.sec1 .text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+span .p {
+    display: inline-block;
+}
+span i {
+    display: inline-block;
+    padding: 10px;
+    color: var(--text-color);
+    line-height: 1rem;
+}
+.sec1 .text span i {
+    border: .8px solid var(--text-color);
+    border-radius: 50%;
+}
+span {
+    display: block;
+    text-align: left;
+}
+
+.sec2 {
+    text-align: center;
+    width: 100%;
+}
+
+.sec2 .text {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+.sec2 .text p {
+    color: var(--text-color);    
+    padding: 0px 127px;
+}
+
+.sec2 .img {
+    display: inline-block;
+}
+
+.sec2 .img img {
+    height: 400px;
+}
+
+.sec3 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.figure {
+    display: inline-block;
+    width: 400px;
+}
+
+.figure img {
+    width: 100%;
+}
+
+.sec4 {
+    /* background-color: rgb(35, 37, 66); */
+    width: 100%;
+    padding: 40px 0;
+}
+.sec4 .text {
+    /* background-color: rgb(82, 14, 14); */
+    width: 42%;
+    float: left;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.contact-details {
+    text-align: left;
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+}
+.map {
+    margin: 15px 20px 0;
+}
+.top-footer {
+    /* background-color: #EEE; */
+    width: 100%;
+    /* padding: 30px 0 30px 157px; */
+    text-align: center;
+}
+
+.top-footer div {
+    /* background-color: #a90; */
+    width: 22%;
+    float: left;
+    margin-left: 30px;
+}
+hr {
+    border: .5px solid rgb(183 183 183 / 28%);
+}
+.top-footer .contact a {
+    text-decoration: none;
+    color: var(--a-visited-color);
+    font-size: 23px;
+}
+.top-footer .contact .site-name {
+    color: var(--a-color);
+}
+.top-footer .about p {
+    text-align: left;
+}
+.clr {
+    clear: both;
+}
+.bottom-footer {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.bottom-footer div {
+    margin: 0 auto;
+    width: 35%;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.bottom-footer div span {
+    display: inline-block;
+    font-weight: bold;
+    color: var(--a-visited-color);
+}
+.bottom-footer a {
+    color: var(--text-color);
+    width: 10px;
+    margin: 20px 10px;
+}
